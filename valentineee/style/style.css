@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito';
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(181, 59, 59);
+    overflow: hidden;
+}
+
+p {
+    text-align: center;
+    color: #fbdcdc;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+#yes_page {
+    background-color: rgb(244, 226, 239);
+}
+
+#noButton {
+    position: absolute;
+    margin-left: 150px;
+    transition: 0.5s;
+}
+
+#yesButton {
+    position: absolute;
+    margin-right: 150px;
+}
+
+.header_text {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+#yes_header {
+    font-size: 2.5rem;
+    color: rgb(181, 59, 59);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 1rem;
+}
+
+.btn {
+    background-color: #f4f4f4;
+    color: rgb(94, 9, 9);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    color: #f4f4f4;
+    background-color: rgb(94, 9, 9);
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}

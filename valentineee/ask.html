@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>to rong \.3./</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='style/style.css'>
+    
+</head>
+<body>
+    <div class="container">
+        <div >
+            <h1 class = "header_text">will you be my valentine?</h1>
+        </div>
+        <div>
+            <p>try to click no,,, I dare you >:|</p>
+        </div>
+        <div class="gif_container">
+            <img src="style/images/milk.gif" alt="">
+        </div>
+        <div class = "buttons">
+            <button class="btn" id = "yesButton" onclick="nextPage()">yes! ILY</button>
+            <button class="btn" id="noButton" onmouseover="moveButton()">no...</button>
+            <script>
+                function nextPage() {
+                    window.location.href = "yes.html";
+                }
+                
+                function moveButton() {
+                    var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth);
+                    var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight);
+                    document.getElementById('noButton').style.left = `${x}px`;
+                    document.getElementById('noButton').style.top = `${y}px`;
+                }
+            </script> 
+        </div>
+    </div>
+</body>
+</html>
